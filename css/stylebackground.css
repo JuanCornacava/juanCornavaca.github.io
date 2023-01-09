@@ -1,0 +1,95 @@
+/* .fondo{
+    background: #43C6AC;
+    background: -webkit-linear-gradient(to right, #191654, #43C6AC);
+    background: linear-gradient(to right, #191654, #43C6AC);
+
+
+}  */
+
+
+.content {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contentDet{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.header1 {
+    height: 60vh ;
+    background: url(/img/homeindexs.jpg)  no-repeat center;
+    background-size: cover ;
+
+
+}
+
+.price {
+    background: url(/img/img1.png) no-repeat center;
+    background-attachment: fixed;
+    background-size:  cover;
+
+
+
+}
+
+.sau {
+
+    background: #ffffff;
+}
+
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;
+}
+
+.box-container .box i {
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background: #9c27b0;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #9c27b0;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+
+/* Diseño para contacto */
+
+/* fin  para contacto */
